@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>課題の学科紹介</title>
+</head>
+<body>
+@charset "utf-8";
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 41px;
+  text-align: center;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 23px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.place {
+  float: left;
+  margin: 8px 0 8px 8px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 300px;
+  background-color: #fafafa;
+}
+.place h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.place p {
+  line-height: 1.5;
+  color: #300000;
+}
+a {
+  color: #0073bc;
+}
+a:link {
+  color: #0073bc;
+}
+a:visited {
+  color: #02314c;
+}
+a:hover {
+  color: #b7dbf2;
+}
+a:active {
+  color: #4ca4e8:
+}
+</body>
+</html>
