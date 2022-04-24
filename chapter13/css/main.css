@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*==========　すべて共通  =========== */
+html, body{
+    font-style: 16px;
+    font-family: sans-serif serif;
+    color: #393939;
+    background: #efefef;
+}
+body, div, p, h1, h2, h3, h4, ul, higure {
+    margin: 0;
+    padding: 0;
+}
+p, td, th, li {
+    line-height: 1.8;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a {
+    color: #709a00;
+}
+a:hover {
+    color: #95cd00;
+}
+a:active {
+    color: #4b6700;
+}
+/img-responsive {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+/* 共通の見出し */
+main h1 {
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed #c84040;
+    font-weight: normal;
+    font-style: 1.6rem;
+}
+
+.conriner {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 1000px;
+}
+@media screen and (min-width: 768px) {
+    .conriner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* ヘッダー */
+head{
+    background: #c84040;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ナビゲーション */
+nav {
+    background: #393939;
+}
+.nabar {
+    display: none;
+    list-style-type: none;
+}
+.navbar a {
+    display: block;
+    padding: 0.6rem 0;
+    color: #fff;
+    text-decoration: none;
+}
+.nabar a:hover {
+    background: #c84040;
+}
+@media  and (min-width: 768px{
+    
+}
